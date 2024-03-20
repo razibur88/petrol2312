@@ -7,13 +7,16 @@ export default {
   theme: {
     extend: {
       maxWidth:{
-        container:"1320px"
+        container:"1320px",
       },
       fontFamily: {
         'pops': ['Poppins', 'sans-serif'],
       },
       backgroundColor:{
         'hbg':"#282828"
+      },
+      backgroundImage:{
+        banbg:"url(./src/assets/banner.png)"
       }
     },
   },

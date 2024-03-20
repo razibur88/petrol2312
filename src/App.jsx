@@ -1,3 +1,6 @@
+import Banner from "./components/Banner"
+import Country from "./components/Country"
+import Gallery from "./components/Gallery"
 import Header from "./components/Header"
 import Navbar from "./components/Navbar"
 
@@ -8,6 +11,9 @@ function App() {
     <>
       <Header/>
       <Navbar/>
+      <Banner/>
+      <Country/>
+      <Gallery/>
     </>
   )
 }
