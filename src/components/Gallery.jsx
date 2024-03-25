@@ -4,7 +4,7 @@ import Galreusable from './reusable/Galreusable'
 
 const Gallery = () => {
   return (
-    <div className="flex flex-wrap lg:gap-x-5">
+    <div className="flex flex-wrap justify-between">
         <Galreusable gal={Gal}/>
         <Galreusable gal={Gal}/>
         <Galreusable gal={Gal}/>

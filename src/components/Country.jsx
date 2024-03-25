@@ -5,7 +5,7 @@ const Country = () => {
         <div className='max-w-container mx-auto py-[30px] lg:pt-[80px] lg:pb-[100px]'>
             <div className="lg:flex items-center">
                 <div className="lg:w-1/4">
-                    <h3 className='font-bold lg:text-[48px] font-pops'>The biggest
+                    <h3 className='font-bold lg:text-[48px] font-pops text-center max-[376px]:text-[18px] text-[20px]'>The biggest
                         supplier on
                         the country</h3>
                 </div>
