@@ -1,25 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      maxWidth:{
-        container:"1320px",
+      maxWidth: {
+        container: "1320px",
       },
       fontFamily: {
-        'pops': ['Poppins', 'sans-serif'],
+        pops: ["Poppins", "sans-serif"],
       },
-      backgroundColor:{
-        'hbg':"#282828"
+      backgroundColor: {
+        hbg: "#282828",
       },
-      backgroundImage:{
-        banbg:"url(./src/assets/banner.png)"
-      }
+      backgroundImage: {
+        banbg: "url(/src/assets/banner.png)",
+      },
     },
   },
   plugins: [],
-}
-
+};
